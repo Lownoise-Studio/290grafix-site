@@ -201,14 +201,15 @@ export default function Hero() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            minWidth: 220,
           }}
           className="hero-logo"
         >
-          <div className="flex items-center">
+          <div className="absolute right-[10%] top-[45%] -translate-y-1/2">
             <img
               src="/290grafix-clean.svg"
               alt="290 Grafix"
-              className="h-auto w-[min(92vw,280px)] object-contain logo-glow sm:w-[min(42vw,340px)] lg:w-[min(38vw,400px)]"
+              className="w-[180px] md:w-[220px] h-auto object-contain logo-glow"
             />
           </div>
         </div>
