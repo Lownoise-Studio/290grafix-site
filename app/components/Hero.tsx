@@ -141,9 +141,7 @@ export default function Hero() {
               fontWeight: 300,
             }}
           >
-            Signs, banners, apparel, magnets, business cards, DTF, silkscreen
-            & digital print — for Houston hustlers, businesses, and brands
-            that mean it.
+            Banners, shirts, magnets &amp; business cards — ready fast in Houston.
           </p>
 
           {/* Service chips */}
@@ -175,10 +173,14 @@ export default function Hero() {
             )}
           </div>
 
+          <p style={{ marginTop: "1rem", fontSize: "0.78rem", color: "#555", letterSpacing: "0.02em" }}>
+            Trusted by local businesses across Houston, Cypress, and surrounding areas.
+          </p>
+
           {/* CTAs */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.875rem" }}>
             <a href="#quote" className="btn-primary">
-              Get a Free Quote
+              GET YOUR PRICE NOW
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12"/>
                 <polyline points="12 5 19 12 12 19"/>

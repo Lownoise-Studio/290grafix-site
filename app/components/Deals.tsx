@@ -5,8 +5,9 @@ import { useEffect, useRef } from "react";
 const deals = [
   {
     featured: true,
-    label: "Best Value",
+    label: "MOST POPULAR",
     title: "$129 Special",
+    subtitle: "Everything you need to start promoting today.",
     items: [
       "Pair of 12\" × 24\" Magnets",
       "500 Business Cards",
@@ -14,11 +15,12 @@ const deals = [
       "Custom Design Included",
     ],
     note: "Ask about logo setup!",
-    cta: "Claim This Deal",
+    cta: "Get This Deal",
   },
   {
     featured: false,
     label: "Business Cards",
+    subtitle: null,
     title: "From $75",
     items: [
       "500 Cards — $75",
@@ -32,6 +34,7 @@ const deals = [
   {
     featured: false,
     label: "Magnet Deal",
+    subtitle: null,
     title: "$75",
     items: [
       "Pair of 12\" × 24\" Magnets",
@@ -209,6 +212,13 @@ export default function Deals() {
               >
                 {d.title}
               </div>
+
+              {/* Subtitle */}
+              {d.subtitle && (
+                <p style={{ fontSize: "0.82rem", color: "#888", marginTop: "-0.5rem" }}>
+                  {d.subtitle}
+                </p>
+              )}
 
               {/* Items */}
               <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
