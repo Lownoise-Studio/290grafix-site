@@ -131,12 +131,12 @@ export default function QuoteForm() {
           >
             GET YOUR
             <br />
-            <span style={{ color: "var(--orange)" }}>QUOTE</span>
+            <span style={{ color: "var(--orange)" }}>PRICE</span>
             <br />
-            TODAY.
+            FAST.
           </h2>
           <p style={{ color: "#666", fontSize: "0.9rem", lineHeight: 1.7, marginBottom: "2rem", maxWidth: 360 }}>
-            Fill out the form and we&apos;ll get back to you with pricing and details. No pressure, no runaround.
+            No pressure. No commitment. Just your price.
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -231,7 +231,6 @@ export default function QuoteForm() {
               <option>Business Cards</option>
               <option>Magnets</option>
               <option>DTF / Silkscreen Printing</option>
-              <option>Car Wraps & Vinyl</option>
               <option>Digital Print</option>
               <option>$129 Special (Magnets + Cards)</option>
               <option>Other / Not Sure</option>
@@ -259,7 +258,7 @@ export default function QuoteForm() {
             className="btn-primary"
             style={{ justifyContent: "center", marginTop: "0.5rem" }}
           >
-            {state === "sending" ? "Opening Your Email…" : "Send Quote Request →"}
+            {state === "sending" ? "Opening Your Email…" : "Get My Price →"}
           </button>
 
           <p style={{ fontSize: "0.72rem", color: "#444", textAlign: "center", letterSpacing: "0.04em" }}>
