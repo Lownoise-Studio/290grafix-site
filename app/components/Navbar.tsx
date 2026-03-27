@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -38,15 +37,13 @@ export default function Navbar() {
       >
         {/* Logo */}
         <a href="/" style={{ display: "flex", alignItems: "center", flexShrink: 0 }}>
-          <Image
-            src="/290grafix.svg"
-            alt="290 GraFiX"
-            width={80}
-            height={80}
-            style={{ height: 52, width: "auto", objectFit: "contain", mixBlendMode: "screen" }}
-            priority
-            unoptimized
-          />
+          <div className="flex items-center">
+            <img
+              src="/290grafix-clean.svg"
+              alt="290 Grafix"
+              className="w-[120px] h-auto object-contain logo-glow"
+            />
+          </div>
         </a>
 
         {/* Right side */}

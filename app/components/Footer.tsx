@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 const serviceLinks = [
   "Signs",
   "Banners",
@@ -34,14 +32,13 @@ export default function Footer() {
         >
           {/* Brand */}
           <div>
-            <Image
-              src="/290grafix.svg"
-              alt="290 GraFiX"
-              width={100}
-              height={100}
-              style={{ height: 72, width: "auto", marginBottom: "1.25rem", mixBlendMode: "screen" }}
-              unoptimized
-            />
+            <div className="mb-5 flex items-center">
+              <img
+                src="/290grafix-clean.svg"
+                alt="290 Grafix"
+                className="w-[120px] h-auto object-contain logo-glow"
+              />
+            </div>
             <p style={{ fontSize: "0.875rem", color: "#555", lineHeight: 1.7, maxWidth: 280 }}>
               Custom printing & graphics for Houston businesses and brands. Built with pride, printed right.
             </p>

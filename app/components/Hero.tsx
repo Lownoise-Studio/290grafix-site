@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import Image from "next/image";
 
 export default function Hero() {
   const headlineRef = useRef<HTMLDivElement>(null);
@@ -205,30 +204,11 @@ export default function Hero() {
           }}
           className="hero-logo"
         >
-          <div
-            style={{
-              position: "relative",
-              width: "clamp(220px, 22vw, 340px)",
-              height: "clamp(220px, 22vw, 340px)",
-            }}
-          >
-            {/* Glow behind logo */}
-            <div
-              aria-hidden
-              style={{
-                position: "absolute",
-                inset: "-20%",
-                background: "radial-gradient(circle, rgba(240,120,24,0.12) 0%, transparent 65%)",
-                pointerEvents: "none",
-              }}
-            />
-            <Image
-              src="/290grafix.svg"
-              alt="290 GraFiX logo"
-              fill
-              style={{ objectFit: "contain", mixBlendMode: "screen" }}
-              priority
-              unoptimized
+          <div className="flex items-center">
+            <img
+              src="/290grafix-clean.svg"
+              alt="290 Grafix"
+              className="w-[120px] h-auto object-contain logo-glow"
             />
           </div>
         </div>
