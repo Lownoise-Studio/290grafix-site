@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Retail graphics placeholder">
+  <rect width="800" height="1000" fill="#0a0a0a"/>
+  <path d="M0 700 L800 620 L800 1000 L0 1000 Z" fill="#18181b"/>
+  <text x="400" y="420" fill="#fafafa" font-family="system-ui,sans-serif" font-size="28" font-weight="700" text-anchor="middle">Retail graphics</text>
+  <text x="400" y="470" fill="#EB6A20" font-family="system-ui,sans-serif" font-size="20" text-anchor="middle">Displays &amp; decals</text>
+</svg>

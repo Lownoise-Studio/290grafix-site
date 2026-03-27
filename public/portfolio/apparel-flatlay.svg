@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Apparel flat lay placeholder">
+  <rect width="800" height="1000" fill="#18181b"/>
+  <ellipse cx="280" cy="480" rx="120" ry="160" fill="#27272a" stroke="#3f3f46" stroke-width="2"/>
+  <ellipse cx="520" cy="500" rx="130" ry="170" fill="#3f3f46" stroke="#EB6A20" stroke-width="3"/>
+  <text x="400" y="780" fill="#fafafa" font-family="system-ui,sans-serif" font-size="26" font-weight="700" text-anchor="middle">Branded apparel</text>
+  <text x="400" y="820" fill="#a1a1aa" font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">Flat lay � product shots</text>
+</svg>
