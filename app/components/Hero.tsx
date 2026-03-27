@@ -208,7 +208,7 @@ export default function Hero() {
             <img
               src="/290grafix-clean.svg"
               alt="290 Grafix"
-              className="w-[120px] h-auto object-contain logo-glow"
+              className="h-auto w-[min(92vw,280px)] object-contain logo-glow sm:w-[min(42vw,340px)] lg:w-[min(38vw,400px)]"
             />
           </div>
         </div>

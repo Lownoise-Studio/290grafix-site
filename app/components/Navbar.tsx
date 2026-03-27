@@ -41,7 +41,7 @@ export default function Navbar() {
             <img
               src="/290grafix-clean.svg"
               alt="290 Grafix"
-              className="w-[120px] h-auto object-contain logo-glow"
+              className="h-[58px] w-auto max-w-[min(240px,52vw)] object-contain logo-glow"
             />
           </div>
         </a>

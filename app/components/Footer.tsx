@@ -36,7 +36,7 @@ export default function Footer() {
               <img
                 src="/290grafix-clean.svg"
                 alt="290 Grafix"
-                className="w-[120px] h-auto object-contain logo-glow"
+                className="w-[200px] h-auto object-contain logo-glow sm:w-[220px]"
               />
             </div>
             <p style={{ fontSize: "0.875rem", color: "#555", lineHeight: 1.7, maxWidth: 280 }}>
